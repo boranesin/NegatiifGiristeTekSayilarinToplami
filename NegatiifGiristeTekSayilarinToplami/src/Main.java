@@ -6,6 +6,8 @@ public class Main {
         int total = 0;
         Scanner girdi = new Scanner(System.in);
 
+        // - girdi olunca geçmiş girdilerdeki tek sayilarin toplamını ekrana yazdır
+
         do {
             System.out.print("Sayi giriniz: ");
             n = girdi.nextInt();
